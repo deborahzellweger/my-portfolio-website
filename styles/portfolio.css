@@ -1,0 +1,25 @@
+:root {
+    --floss: #FEFEE6;
+    --zing: #ED6C2D;
+    --bubble-yum: #F090B3;
+    --moss: #235538;
+
+}
+
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: var(--floss);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero {
+    max-width: 720px;
+    padding: 333px 0 436px 52px;
+    color: #ED6C2D;
+}
