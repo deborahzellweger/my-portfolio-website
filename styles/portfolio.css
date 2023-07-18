@@ -17,6 +17,10 @@ h1, h2 {
     font-weight: 700;
 }
 
+h4, a {
+    font-size: 25px;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -25,7 +29,7 @@ a {
 }
 
 .hero-section {
-    max-width: 720px;
+    max-width: 670px;
     padding: 333px 0 320px 0px;
     color: var(--zing);
 }
@@ -45,17 +49,12 @@ a {
     padding: 0 0 50px 0;
 }
 
-
-.project-title {
+.project-title a {
     color: var(--zing);
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 600;
     line-height: 40px;
-}
-
-.project-sub, a {
-    font-size: 25px;
 }
 
 .project-links {
