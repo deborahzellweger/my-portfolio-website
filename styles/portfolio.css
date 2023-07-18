@@ -24,16 +24,20 @@ a {
     color: var(--moss);
 }
 
-.container {
-    
-}
-
 .hero-section {
     max-width: 720px;
     padding: 333px 0 320px 0px;
     color: var(--zing);
 }
 
+.project-section, .testimonial-section {
+    padding: 0 0 320px 0;
+}
+
+.project-section, .cta {
+    display: block;
+    text-align: center;
+}
 
 .project-section h1 {
     text-transform: uppercase;
@@ -41,18 +45,13 @@ a {
     padding: 0 0 50px 0;
 }
 
-.project-section {
-    display: block;
-    text-align: center;
-    padding: 0 0 320px 0;
-}
 
 .project-title {
     color: var(--zing);
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .project-sub, a {
@@ -67,3 +66,11 @@ a {
     color: var(--zing);
 }
 
+.cta a {
+    color: var(--floss);
+    background-color: var(--zing);
+    font-size: 60px;
+    font-weight: 500;
+    padding: 40px 0 40px 0;
+    margin: 87px 0 70px 0;
+}
