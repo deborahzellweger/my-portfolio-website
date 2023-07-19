@@ -15,7 +15,9 @@
     :root {
         --fs-900: 40px;
     }
+
 }
+
 
 
 body {
@@ -91,4 +93,23 @@ a {
     margin: 87px 0 70px 0;
 }
 
+
+@media (max-width: 1000px) {
+    .cta-add-on {
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .hero-section h1, .project-section,
+        .testimonial-section {
+            padding-bottom: 230px;
+        }
+
+         .hero-section h1 {
+            padding-top: 200px;
+            max-width: 345px;
+         }
+}
 
