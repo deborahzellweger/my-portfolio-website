@@ -4,7 +4,7 @@
     --clr-bubble-yum: #F090B3;
     --clr-moss: #235538;
 
-    --fs-xl: 80px;
+    --fs-xl: clamp(50px, 5vw ,80px);
     --fs-900: 60px;
     --fs-800: 40px;
     --fs-500: 25px;
@@ -13,8 +13,7 @@
 
 @media(max-width: 576px) {
     :root {
-        --fs-xl: 50px;
-        --fs-900: 50px;
+        --fs-900: 40px;
     }
 }
 
@@ -46,7 +45,7 @@ a {
 }
 
 .hero-section h1{
-    max-width: 900px;
+    max-width: 800px;
     font-size: var(--fs-xl);
     padding: 300px 0 320px 0px;
     color: var(--clr-zing);
@@ -93,9 +92,3 @@ a {
 }
 
 
-@media(max-width: 576px) {
-    
-    .hero-section {
-    padding: 0;
-    }
-}
