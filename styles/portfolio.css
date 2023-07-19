@@ -93,6 +93,16 @@ a {
     margin: 87px 0 70px 0;
 }
 
+.img-liquid-bodies {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 300px;
+    height: auto;
+    border-radius: 40px;
+    
+}
+
 
 @media (max-width: 1000px) {
     .cta-add-on {
