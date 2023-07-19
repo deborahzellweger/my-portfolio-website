@@ -1,37 +1,55 @@
 :root {
-    --floss: #FEFEE6;
-    --zing: #ED6C2D;
-    --bubble-yum: #F090B3;
-    --moss: #235538;
+    --clr-floss: #FEFEE6;
+    --clr-zing: #ED6C2D;
+    --clr-bubble-yum: #F090B3;
+    --clr-moss: #235538;
+
+    --fs-xl: 80px;
+    --fs-900: 60px;
+    --fs-800: 40px;
+    --fs-500: 25px;
 
 }
+
+@media(max-width: 576px) {
+    :root {
+        --fs-xl: 50px;
+        --fs-900: 50px;
+    }
+}
+
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: var(--floss);
-    color: var(--moss);
+    background-color: var(--clr-floss);
+    color: var(--clr-moss);
 }
 
-h1, h2 {
-    font-size: 60px;
+h1, h2, p {
+    font-size: var(--fs-900);
     font-weight: 700;
 }
 
 h4, a {
-    font-size: 25px;
+    font-size: var(--fs-500);
+}
+
+p {
+    line-height: normal;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--moss);
+    color: var(--clr-moss);
 }
 
-.hero-section {
-    max-width: 670px;
-    padding: 333px 0 320px 0px;
-    color: var(--zing);
+.hero-section h1{
+    max-width: 900px;
+    font-size: var(--fs-xl);
+    padding: 300px 0 320px 0px;
+    color: var(--clr-zing);
 }
 
 .project-section, .testimonial-section {
@@ -50,9 +68,9 @@ a {
 }
 
 .project-title a {
-    color: var(--zing);
+    color: var(--clr-zing);
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: var(--fs-800);
     font-weight: 600;
     line-height: 40px;
 }
@@ -62,14 +80,22 @@ a {
 }
 
 .quote {
-    color: var(--zing);
+    color: var(--clr-zing);
 }
 
 .cta a {
-    color: var(--floss);
-    background-color: var(--zing);
-    font-size: 60px;
+    color: var(--clr-floss);
+    background-color: var(--clr-zing);
+    font-size: var(--fs-800);
     font-weight: 500;
     padding: 40px 0 40px 0;
     margin: 87px 0 70px 0;
+}
+
+
+@media(max-width: 576px) {
+    
+    .hero-section {
+    padding: 0;
+    }
 }
