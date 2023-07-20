@@ -156,7 +156,7 @@ a {
 .about-img {
     position: absolute;
     display: flex;
-    top: 480px;
+    top: 515px;
     left: 340px;
     width: 70%;
     height: auto;
@@ -171,11 +171,8 @@ a {
     }
 
     .about-img {
-        position: absolute;
-        display: flex;
-        top: 600px;
         left: 0px;
-        width: 80%;
+        min-width: 560px;
         z-index: -2;
         overflow: hidden;
         }
@@ -186,18 +183,26 @@ a {
     .hero-section h1, 
     .home-project-section,
     .home-testimonial-section, 
-    .about-intro,
     .about-description {
         padding-bottom: 230px;
     }
 
-    .hero-section h1 {
+    .hero-section h1,
+    .about-intro  {
         padding-top: 200px;
         max-width: 345px;
     }
 
+    .about-intro {
+        padding-bottom: 150px;
+        
+    }
+
     .about-img {
-        display: none;
+        left: 0px;
+        min-width: 560px;
+        z-index: -2;
+        overflow: hidden;
     }
 }
 
