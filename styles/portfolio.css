@@ -76,12 +76,11 @@ a {
     line-height: 40px;
 }
 
-#container {
+#liquid-bodies {
     position: relative;
 }
 
 .followMouse {
-    z-index: -1;
     position: absolute;
 }
 

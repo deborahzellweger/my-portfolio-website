@@ -1,12 +1,11 @@
 for (let el of document.querySelectorAll('.hover')) {
   let image = new Image();
-  image.img = el.dataset.img;
-  console.log(el.dataset)
+  image.src = el.dataset.src;
   image.className = "followMouse";
   el.addEventListener('mouseover',(e)=>{
-    document.getElementById('container').append(image);
-    image.style.left = `${e.x - (image.width/2)}px`;
-    image.style.top = `${e.y - (image.height/2)}px`;
+    document.getElementById('project-title').append(image);
+    image.style.left = `${e.x - (image.width/5)}px`;
+    image.style.top = `${e.y - (image.height/5)}px`;
   })
   el.addEventListener('mouseout',(e)=>{
     image.remove();
