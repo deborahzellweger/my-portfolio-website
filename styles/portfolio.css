@@ -23,15 +23,15 @@
 
 
 .index {
-    font-family: var(--default-font)
+    font-family: var(--default-font);
     background-color: var(--clr-floss);
     color: var(--clr-moss);
 }
 
 .about {
     font-family: var(--default-font);
-        background-color: var(--clr-bubble-yum);
-        color: var(--clr-floss);
+    background-color: var(--clr-bubble-yum);
+    color: var(--clr-floss);
 }
 
 h1, h2, p {
@@ -47,6 +47,12 @@ p {
     line-height: normal;
 }
 
+.about-description {
+    font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -54,36 +60,42 @@ a {
     color: var(--clr-moss);
 }
 
-.hero-section h1, .about-intro{
-    max-width: 800px;
+.hero-section h1, 
+.about-intro{
     font-size: var(--fs-xl);
     padding: 300px 0 320px 0px;
 }
 
 .hero-section {
     color: var(--clr-zing);
+    max-width: 800px;
 }
 
 .about-intro {
     color: var(--clr-floss);
+    max-width: 900px;
 }
 
-.project-section, .testimonial-section {
+.home-project-section, 
+.home-testimonial-section,
+.about-description {
     padding: 0 0 320px 0;
 }
 
-.project-section, .cta {
+.home-project-section, 
+.home-cta,
+.about-cta {
     display: block;
     text-align: center;
 }
 
-.project-section h1 {
+.home-project-section h1 {
     text-transform: uppercase;
     line-height: 60px;
     padding: 0 0 50px 0;
 }
 
-.project-title a {
+.home-project-title a {
     color: var(--clr-zing);
     text-transform: uppercase;
     font-size: var(--fs-800);
@@ -92,7 +104,7 @@ a {
 }
 
 
-.project-links {
+.home-project-links {
     padding-top: 50px;
 }
 
@@ -100,7 +112,7 @@ a {
     color: var(--clr-zing);
 }
 
-.cta a {
+.home-cta a {
     color: var(--clr-floss);
     background-color: var(--clr-zing);
     font-size: var(--fs-800);
@@ -109,14 +121,24 @@ a {
     margin: 87px 0 70px 0;
 }
 
-.img-liquid-bodies {
+.about-cta a {
+    color: var(--clr-bubble-yum);
+    background-color: var(--clr-floss);
+    font-size: var(--fs-800);
+    font-weight: 500;
+    padding: 40px 0 40px 0;
+    margin: 87px 0 70px 0;
+
+}
+
+.about-img {
     position: absolute;
-    top: 450px;
-    left: 100px;
-    width: 300px;
+    top: 480px;
+    left: 340px;
+    width: 70%;
     height: auto;
-    border-radius: 40px;
-    
+    z-index: -1;
+    overflow: hidden;
 }
 
 
@@ -128,14 +150,17 @@ a {
 }
 
 @media (max-width: 500px) {
-    .hero-section h1, .project-section,
-        .testimonial-section, .about-intro {
-            padding-bottom: 230px;
-        }
+    .hero-section h1, 
+    .home-project-section,
+    .home-testimonial-section, 
+    .about-intro,
+    .about-description {
+        padding-bottom: 230px;
+    }
 
-         .hero-section h1 {
-            padding-top: 200px;
-            max-width: 345px;
-         }
+    .hero-section h1 {
+        padding-top: 200px;
+        max-width: 345px;
+    }
 }
 
