@@ -4,6 +4,9 @@
     --clr-bubble-yum: #F090B3;
     --clr-moss: #235538;
 
+    --default-font: 'Montserrat Alternates',
+        sans-serif;
+
     --fs-xl: clamp(50px, 5vw ,80px);
     --fs-900: 60px;
     --fs-800: 40px;
@@ -19,11 +22,16 @@
 }
 
 
-
-body {
-    font-family: 'Montserrat Alternates', sans-serif;
+.index {
+    font-family: var(--default-font)
     background-color: var(--clr-floss);
     color: var(--clr-moss);
+}
+
+.about {
+    font-family: var(--default-font);
+        background-color: var(--clr-bubble-yum);
+        color: var(--clr-floss);
 }
 
 h1, h2, p {
@@ -46,11 +54,18 @@ a {
     color: var(--clr-moss);
 }
 
-.hero-section h1{
+.hero-section h1, .about-intro{
     max-width: 800px;
     font-size: var(--fs-xl);
     padding: 300px 0 320px 0px;
+}
+
+.hero-section {
     color: var(--clr-zing);
+}
+
+.about-intro {
+    color: var(--clr-floss);
 }
 
 .project-section, .testimonial-section {
@@ -74,14 +89,6 @@ a {
     font-size: var(--fs-800);
     font-weight: 600;
     line-height: 40px;
-}
-
-#liquid-bodies {
-    position: relative;
-}
-
-.followMouse {
-    position: absolute;
 }
 
 
@@ -122,7 +129,7 @@ a {
 
 @media (max-width: 500px) {
     .hero-section h1, .project-section,
-        .testimonial-section {
+        .testimonial-section, .about-intro {
             padding-bottom: 230px;
         }
 
