@@ -76,6 +76,16 @@ a {
     line-height: 40px;
 }
 
+#container {
+    position: relative;
+}
+
+.followMouse {
+    z-index: -1;
+    position: absolute;
+}
+
+
 .project-links {
     padding-top: 50px;
 }
