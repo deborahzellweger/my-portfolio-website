@@ -47,10 +47,22 @@ p {
     line-height: normal;
 }
 
-.about-description {
+.about-description-title {
     font-size: 25px;
-        font-style: normal;
-        font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul {
+    display: block;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    max-width: 280px;
+    margin-bottom: 0.5rem;
 }
 
 a {
@@ -133,6 +145,7 @@ a {
 
 .about-img {
     position: absolute;
+    display: flex;
     top: 480px;
     left: 340px;
     width: 70%;
