@@ -184,6 +184,12 @@ li {
   border-radius: 10px;
 }
 
+.project-img:hover {
+  border: none;
+  border-radius: 0px;
+  zoom: 15%;
+}
+
 .first-project-l,
 .first-project-r {
   border: 5px solid var(--clr-floss);
