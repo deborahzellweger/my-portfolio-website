@@ -177,6 +177,11 @@ li {
   overflow: hidden;
 }
 
+.project-lb-portrait {
+  background-color: url(/img/work/lb-portrait.png) var(--clr-bubble-yum);
+  padding-top: 500px !important;
+}
+
 .first-project-l,
 .first-project-r {
   border: 5px solid var(--clr-floss);
