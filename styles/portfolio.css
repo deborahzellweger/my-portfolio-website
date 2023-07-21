@@ -89,7 +89,7 @@ li {
 
 .hero-section {
   color: var(--clr-zing);
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .link-hero-debbie-to-about {
@@ -184,7 +184,7 @@ li {
   border-radius: 10px;
 }
 
-.project-img:hover {
+project-img:hover {
   border: none;
   border-radius: 0px;
   zoom: 15%;
