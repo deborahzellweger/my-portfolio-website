@@ -21,31 +21,50 @@
 
 }
 
-.index {
+body {
     font-family: var(--default-font);
+}
+
+.about,
+.work {
+    color: var(--clr-floss);
+}
+
+.index {
     background-color: var(--clr-floss);
     color: var(--clr-moss);
 }
 
 .about {
-    font-family: var(--default-font);
     background-color: var(--clr-bubble-yum);
-    color: var(--clr-floss);
 }
 
-h1, h2, p {
+.work {
+    background-color: var(--clr-moss);
+}
+
+h1, 
+h2, 
+p {
     font-size: var(--fs-900);
     font-weight: 700;
 }
 
-h4, a {
+h4, 
+a {
     font-size: var(--fs-500);
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--clr-moss);
 }
 
 p {
     line-height: normal;
 }
-
 
 ul {
     display: block;
@@ -59,16 +78,10 @@ li {
     margin-bottom: 0.5rem;
 }
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--clr-moss);
-}
 
 .hero-section h1,
 .link-hero-debbie-to-about,
-.about-intro{
+.about-intro {
     font-size: var(--fs-xl);
     padding: 300px 0 320px 0px;
 }
@@ -81,6 +94,7 @@ a {
 .link-hero-debbie-to-about {
     color: var(--clr-zing);
     text-transform: none;
+    font-weight: 700;
 }
 
 .link-hero-debbie-to-about:hover {
@@ -134,23 +148,22 @@ a {
     color: var(--clr-zing);
 }
 
+.home-cta a,
+.about-cta a {
+    font-size: var(--fs-800);
+    font-weight: 500;
+    padding: 30px 0 30px 0;
+    margin: 30px 0 150px 0;
+}
+
 .home-cta a {
     color: var(--clr-floss);
     background-color: var(--clr-zing);
-    font-size: var(--fs-800);
-    font-weight: 500;
-    padding: 40px 0 40px 0;
-    margin: 87px 0 70px 0;
 }
 
 .about-cta a {
     color: var(--clr-bubble-yum);
     background-color: var(--clr-floss);
-    font-size: var(--fs-800);
-    font-weight: 500;
-    padding: 40px 0 40px 0;
-    margin: 87px 0 70px 0;
-
 }
 
 .about-img {
