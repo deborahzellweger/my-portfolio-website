@@ -1,221 +1,225 @@
 :root {
-    --clr-floss: #FEFEE6;
-    --clr-zing: #ED6C2D;
-    --clr-bubble-yum: #F090B3;
-    --clr-moss: #235538;
+  --clr-floss: #fefee6;
+  --clr-zing: #ed6c2d;
+  --clr-bubble-yum: #f090b3;
+  --clr-moss: #235538;
 
-    --default-font: 'Montserrat Alternates',
-        sans-serif;
+  --default-font: "Montserrat Alternates", sans-serif;
 
-    --fs-xl: clamp(50px, 5vw ,80px);
-    --fs-900: 60px;
-    --fs-800: 40px;
-    --fs-500: 25px;
-
+  --fs-xl: clamp(50px, 5vw, 80px);
+  --fs-900: 60px;
+  --fs-800: 40px;
+  --fs-500: 25px;
 }
 
-@media(max-width: 576px) {
-    :root {
-        --fs-900: 40px;
-    }
-
+@media (max-width: 576px) {
+  :root {
+    --fs-900: 40px;
+  }
 }
 
 body {
-    font-family: var(--default-font);
+  font-family: var(--default-font);
+}
+
+.container {
+  max-width: 1440px !important;
 }
 
 .about,
 .work {
-    color: var(--clr-floss);
+  color: var(--clr-floss);
 }
 
 .index {
-    background-color: var(--clr-floss);
-    color: var(--clr-moss);
+  background-color: var(--clr-floss);
+  color: var(--clr-moss);
 }
 
 .about {
-    background-color: var(--clr-bubble-yum);
+  background-color: var(--clr-bubble-yum);
 }
 
 .work {
-    background-color: var(--clr-moss);
+  background-color: var(--clr-moss);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 p {
-    font-size: var(--fs-900);
-    font-weight: 700;
+  font-size: var(--fs-900);
+  font-weight: 700;
 }
 
-h4, 
+h4,
 a {
-    font-size: var(--fs-500);
+  font-size: var(--fs-500);
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: var(--clr-moss);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--clr-moss);
 }
 
 p {
-    line-height: normal;
+  line-height: normal;
 }
 
 ul {
-    display: block;
-    padding: 0;
+  display: block;
+  padding: 0;
 }
 
 li {
-    list-style: none;
-    font-size: 20px;
-    max-width: 280px;
-    margin-bottom: 0.5rem;
+  list-style: none;
+  font-size: 20px;
+  max-width: 280px;
+  margin-bottom: 0.5rem;
 }
-
 
 .hero-section h1,
 .link-hero-debbie-to-about,
-.about-intro {
-    font-size: var(--fs-xl);
-    padding: 300px 0 320px 0px;
+.about-intro,
+.work-section {
+  font-size: var(--fs-xl);
+  padding: 300px 0 320px 0px;
 }
 
 .hero-section {
-    color: var(--clr-zing);
-    max-width: 800px;
+  color: var(--clr-zing);
+  max-width: 800px;
 }
 
 .link-hero-debbie-to-about {
-    color: var(--clr-zing);
-    text-transform: none;
-    font-weight: 700;
+  color: var(--clr-zing);
+  text-transform: none;
+  font-weight: 700;
 }
 
 .link-hero-debbie-to-about:hover {
-    color: var(--clr-bubble-yum);
+  color: var(--clr-bubble-yum);
 }
 
 .about-intro {
-    color: var(--clr-floss);
-    max-width: 900px;
+  color: var(--clr-floss);
+  max-width: 900px;
 }
 
 .about-description-title {
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.home-project-section, 
+.home-project-section,
 .home-testimonial-section,
 .about-description {
-    padding: 0 0 320px 0;
+  padding: 0 0 320px 0;
 }
 
-.home-project-section, 
+.home-project-section,
 .home-cta,
 .about-cta {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .home-project-section h1 {
-    text-transform: uppercase;
-    line-height: 60px;
-    padding: 0 0 50px 0;
+  text-transform: uppercase;
+  line-height: 60px;
+  padding: 0 0 50px 0;
 }
 
 .home-project-title a {
-    color: var(--clr-zing);
-    text-transform: uppercase;
-    font-size: var(--fs-800);
-    font-weight: 600;
-    line-height: 40px;
+  color: var(--clr-zing);
+  text-transform: uppercase;
+  font-size: var(--fs-800);
+  font-weight: 600;
+  line-height: 40px;
 }
 
-
 .home-project-links {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .quote {
-    color: var(--clr-zing);
+  color: var(--clr-zing);
 }
 
 .home-cta a,
 .about-cta a {
-    font-size: var(--fs-800);
-    font-weight: 500;
-    padding: 30px 0 30px 0;
-    margin: 30px 0 150px 0;
+  font-size: var(--fs-800);
+  font-weight: 500;
+  padding: 30px 0 30px 0;
+  margin: 30px 0 150px 0;
 }
 
 .home-cta a {
-    color: var(--clr-floss);
-    background-color: var(--clr-zing);
+  color: var(--clr-floss);
+  background-color: var(--clr-zing);
 }
 
 .about-cta a {
-    color: var(--clr-bubble-yum);
-    background-color: var(--clr-floss);
+  color: var(--clr-bubble-yum);
+  background-color: var(--clr-floss);
 }
 
 .about-img {
-    position: absolute;
-    display: flex;
-    top: 515px;
-    left: 340px;
-    width: 70%;
-    height: auto;
-    z-index: -2;
-    overflow: hidden;
+  position: absolute;
+  display: flex;
+  top: 515px;
+  left: 600px;
+  width: 50%;
+  height: auto;
+  z-index: -2;
+  overflow: hidden;
 }
 
+.first-project-l,
+.first-project-r {
+  border: 5px solid var(--clr-floss);
+  border-radius: 10px;
+  background: url(/img/home/aashika.png) var(--clr-bubble-yum);
+  padding-top: 500px !important;
+}
 
 @media (max-width: 992px) {
-    .cta-add-on {
-        display: none;
-    }
+  .cta-add-on {
+    display: none;
+  }
 
-    .about-img {
-        left: 0px;
-        min-width: 560px;
-        z-index: -2;
-        overflow: hidden;
-        }
-
+  .about-img {
+    left: 0px;
+    min-width: 560px;
+    z-index: -2;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 576px) {
-    .hero-section h1, 
-    .home-project-section,
-    .home-testimonial-section, 
-    .about-description {
-        padding-bottom: 230px;
-    }
+  .hero-section h1,
+  .home-project-section,
+  .home-testimonial-section,
+  .about-description {
+    padding-bottom: 230px;
+  }
 
-    .hero-section h1,
-    .about-intro  {
-        padding-top: 200px;
-        max-width: 345px;
-    }
+  .hero-section h1,
+  .about-intro {
+    padding-top: 200px;
+    max-width: 345px;
+  }
 
-    .about-intro {
-        padding-bottom: 150px;
-        
-    }
+  .about-intro {
+    padding-bottom: 150px;
+  }
 
-    .about-img {
-        left: 0px;
-        min-width: 560px;
-        z-index: -2;
-        overflow: hidden;
-    }
+  .about-img {
+    left: 0px;
+    min-width: 560px;
+    z-index: -2;
+    overflow: hidden;
+  }
 }
-
