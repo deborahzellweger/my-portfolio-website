@@ -41,7 +41,7 @@ body {
 }
 
 .work {
-  background-color: var(--clr-moss);
+  background-color: var(--clr-floss);
 }
 
 h1,
@@ -180,22 +180,12 @@ li {
 .project-img {
   width: 100%;
   height: auto;
-  border: 5px solid var(--clr-floss);
-  border-radius: 10px;
 }
 
-project-img:hover {
-  border: none;
-  border-radius: 0px;
-  zoom: 15%;
-}
-
-.first-project-l,
-.first-project-r {
-  border: 5px solid var(--clr-floss);
+.project-img:hover {
   border-radius: 10px;
-  background: url(/img/home/aashika.png) var(--clr-bubble-yum);
-  padding-top: 500px !important;
+  border: 5px solid var(--clr-floss);
+  filter: blur(5px);
 }
 
 @media (max-width: 992px) {
