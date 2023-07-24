@@ -41,7 +41,7 @@ body {
 }
 
 .work {
-  background-color: var(--clr-floss);
+  background-color: var(--clr-moss);
 }
 
 h1,
@@ -132,12 +132,17 @@ li {
   padding: 0 0 50px 0;
 }
 
-.home-project-title a {
+.home-project-title a,
+h3 {
   color: var(--clr-zing);
   text-transform: uppercase;
   font-size: var(--fs-800);
   font-weight: 600;
   line-height: 40px;
+}
+
+h3 {
+  color: var(--clr-floss);
 }
 
 .home-project-links {
@@ -177,17 +182,49 @@ li {
   overflow: hidden;
 }
 
+.img-wrapper {
+  position: relative;
+}
+
 .project-img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.project-img:hover {
-  border-radius: 10px;
-  border: 5px solid var(--clr-floss);
-  transition-duration: 0.2s;
-  transition-timing-function: ease;
+.project-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(240, 144, 179, 0.8);
+  color: var(--clr-floss);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+}
+
+.project-img-overlay:hover {
+  opacity: 1;
+  transition: 0.25s ease-in-out;
+}
+
+.project-img-blur {
+  backdrop-filter: blur(3px);
+}
+
+.project-title {
+  margin-top: 160px;
+}
+
+.project-title,
+.project-description {
+  margin-left: 50px;
+}
+
+.project-description {
+  text-transform: lowercase;
 }
 
 @media (max-width: 992px) {
