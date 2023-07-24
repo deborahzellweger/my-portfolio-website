@@ -190,6 +190,7 @@ h3 {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 16px;
 }
 
 .project-img-overlay {
@@ -202,6 +203,7 @@ h3 {
   color: var(--clr-floss);
   display: flex;
   flex-direction: column;
+  border-radius: 16px;
   opacity: 0;
 }
 
@@ -225,6 +227,13 @@ h3 {
 
 .project-description {
   text-transform: lowercase;
+}
+
+.back-home-link {
+  color: var(--clr-floss);
+  display: block;
+  text-align: center;
+  padding-top: 50px;
 }
 
 @media (max-width: 992px) {
