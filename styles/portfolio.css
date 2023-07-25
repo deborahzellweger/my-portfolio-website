@@ -6,7 +6,7 @@
 
   --default-font: "Montserrat Alternates", sans-serif;
 
-  --fs-xl: clamp(50px, 5vw, 80px);
+  --fs-xl: clamp(50px, 5vw, 70px);
   --fs-900: 60px;
   --fs-800: 40px;
   --fs-500: 25px;
@@ -27,14 +27,14 @@ body {
   max-width: 1440px !important;
 }
 
-.about,
-.work {
-  color: var(--clr-floss);
-}
-
 .index {
   background-color: var(--clr-floss);
   color: var(--clr-moss);
+}
+
+.about,
+.work {
+  color: var(--clr-floss);
 }
 
 .about {
@@ -50,7 +50,11 @@ body {
   color: var(--clr-floss);
 }
 
-h1,
+h1 {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+}
+
 h2,
 p {
   font-size: var(--fs-900);
@@ -86,12 +90,17 @@ li {
 }
 
 nav {
-  margin-top: 30px;
+  margin: 30px 50px 0 0;
 }
 
 .logo {
-  height: 70%;
+  height: 50%;
   width: auto;
+}
+
+.logo,
+.logo-small {
+    padding-left: 50px;
 }
 
 
@@ -129,19 +138,21 @@ nav li.active a {
 
 
 
-
-.hero-section h1,
-.link-hero-debbie-to-about,
+.hero-section,
 .about-intro,
 .work-section,
 .contact-section {
   font-size: var(--fs-xl);
-  padding: 300px 0 320px 0px;
+  padding: 180px 50px 320px 50px;
+}
+
+.hero-section a {
+  font-size: var(--fs-xl);
 }
 
 .hero-section {
   color: var(--clr-zing);
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .link-hero-debbie-to-about {
