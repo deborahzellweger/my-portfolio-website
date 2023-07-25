@@ -10,6 +10,7 @@
   --fs-900: 60px;
   --fs-800: 40px;
   --fs-500: 25px;
+  --fs-400: 20px;
 }
 
 @media (max-width: 576px) {
@@ -56,12 +57,12 @@ p {
   font-weight: 700;
 }
 
-h4,
-a {
-  font-size: var(--fs-500);
+h4 {
+font-size: var(--fs-500);
 }
 
 a {
+  font-size: var(--fs-400);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
@@ -83,6 +84,30 @@ li {
   max-width: 280px;
   margin-bottom: 0.5rem;
 }
+
+.home-nav,
+.work-nav {
+  margin-top: 30px;
+}
+
+.home-nav a {
+  font-weight: 400;
+}
+
+.logo {
+  height: 80%;
+  width: auto;
+}
+
+.home-nav-ul li,
+.work-nav-ul li {
+display: inline;
+text-transform: uppercase;
+line-height: 60px;
+padding: 15px;
+}
+
+
 
 .hero-section h1,
 .link-hero-debbie-to-about,
@@ -242,11 +267,19 @@ background-color: var(--clr-floss);
   text-transform: lowercase;
 }
 
+.back-home-link,
+.contact-link {
+display: block;
+text-align: center;
+padding-top: 50px;
+}
+
 .back-home-link {
   color: var(--clr-floss);
-  display: block;
-  text-align: center;
-  padding-top: 50px;
+}
+
+.contact-link {
+  color: var(--clr-moss);
 }
 
 @media (max-width: 992px) {
@@ -263,6 +296,21 @@ background-color: var(--clr-floss);
 }
 
 @media (max-width: 576px) {
+  
+ .-home-nav {
+  margin-right: 15px;
+ }
+  
+.home-nav-ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 10px;
+    padding: 15px 10px 0 0;
+  }
+
+  
   .hero-section h1,
   .home-project-section,
   .home-testimonial-section,
