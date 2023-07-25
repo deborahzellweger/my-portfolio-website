@@ -99,12 +99,14 @@ nav {
 }
 
 .home-nav-links li,
-.work-nav-links li {
+.work-nav-links li,
+.about-nav-links li {
 display: inline;
 text-transform: uppercase;
 line-height: 60px;
 padding: 15px;
 }
+
 nav a:hover {
   font-weight: 600;
     transition: 0.25s ease-in-out;
@@ -115,7 +117,8 @@ nav li.active a {
 }
 
 
-.work-nav-links a{
+.work-nav-links a,
+.about-nav-links a {
   color: var(--clr-floss);
 }
 
@@ -315,7 +318,8 @@ padding-top: 50px;
  }
   
 .home-nav-links li,
-.work-nav-links li {
+.work-nav-links li,
+.about-nav-links li {
     display: flex;
     flex-direction: column;
     text-align: right;
