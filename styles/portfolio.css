@@ -85,27 +85,40 @@ li {
   margin-bottom: 0.5rem;
 }
 
-.home-nav,
-.work-nav {
+nav {
   margin-top: 30px;
 }
 
-.home-nav a {
-  font-weight: 400;
-}
-
 .logo {
-  height: 80%;
+  height: 70%;
   width: auto;
 }
 
-.home-nav-ul li,
-.work-nav-ul li {
+.nav a {
+  font-weight: 400;
+}
+
+.home-nav-links li,
+.work-nav-links li {
 display: inline;
 text-transform: uppercase;
 line-height: 60px;
 padding: 15px;
 }
+nav a:hover {
+  font-weight: 600;
+    transition: 0.25s ease-in-out;
+}
+
+nav li.active a {
+  font-weight: 700;
+}
+
+
+.work-nav-links a{
+  color: var(--clr-floss);
+}
+
 
 
 
@@ -297,17 +310,18 @@ padding-top: 50px;
 
 @media (max-width: 576px) {
   
- .-home-nav {
+ .nav {
   margin-right: 15px;
  }
   
-.home-nav-ul li {
+.home-nav-links li,
+.work-nav-links li {
     display: flex;
     flex-direction: column;
     text-align: right;
     text-transform: uppercase;
     line-height: 10px;
-    padding: 15px 10px 0 0;
+    padding: 12px 10px 0 0;
   }
 
   
