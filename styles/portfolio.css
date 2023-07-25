@@ -16,6 +16,7 @@
 @media (max-width: 576px) {
   :root {
     --fs-900: 40px;
+    --fs-800: 30px;
   }
 }
 
@@ -61,6 +62,10 @@ p {
   font-weight: 700;
 }
 
+p {
+  line-height: normal;
+}
+
 h4 {
 font-size: var(--fs-500);
 }
@@ -71,10 +76,6 @@ a {
   text-transform: uppercase;
   font-weight: 400;
   color: var(--clr-moss);
-}
-
-p {
-  line-height: normal;
 }
 
 ul {
@@ -100,7 +101,7 @@ nav {
 
 .logo,
 .logo-small {
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 
@@ -143,32 +144,36 @@ nav li.active a {
 .work-section,
 .contact-section {
   font-size: var(--fs-xl);
-  padding: 180px 50px 320px 50px;
-}
-
-.hero-section a {
-  font-size: var(--fs-xl);
+  margin: 180px 50px 320px 50px;
 }
 
 .hero-section {
   color: var(--clr-zing);
-  max-width: 800px;
-}
-
-.link-hero-debbie-to-about {
-  color: var(--clr-zing);
-  text-transform: none;
-  font-weight: 700;
-}
-
-.link-hero-debbie-to-about:hover {
-  color: var(--clr-bubble-yum);
 }
 
 .about-intro {
   color: var(--clr-floss);
-  max-width: 900px;
 }
+
+.hero-section,
+.about-intro {
+  max-width: 800px;
+}
+
+.hero-section a {
+  font-size: var(--fs-xl);
+  color: var(--clr-zing);
+    text-transform: none;
+    font-weight: 700;
+}
+
+
+.hero-section a:hover {
+  color: var(--clr-bubble-yum);
+}
+
+
+
 
 .about-description-title {
   font-size: 25px;
@@ -179,7 +184,7 @@ nav li.active a {
 .home-project-section,
 .home-testimonial-section,
 .about-description {
-  padding: 0 0 320px 0;
+  margin: 0 50px 320px 50px;
 }
 
 .home-project-section,
@@ -190,10 +195,8 @@ nav li.active a {
   text-align: center;
 }
 
-.home-project-section h1 {
-  text-transform: uppercase;
-  line-height: 60px;
-  padding: 0 0 50px 0;
+.home-project-section h2 {
+  margin-bottom: 100px;
 }
 
 .home-project-title a,
@@ -217,14 +220,34 @@ h3 {
   color: var(--clr-zing);
 }
 
+.home-cta,
+.about-cta,
+.contact-cta {
+  margin: 0 50px 150px 50px;
+}
+
+footer {
+margin: 0 50px 30px 50px;
+}
+
+
+.link-to-work a,
 .home-cta a,
 .about-cta a,
 .contact-cta a {
   font-size: var(--fs-800);
   font-weight: 500;
+  border-radius: 95px;
   padding: 30px 0 30px 0;
-  margin: 30px 0 50px 0;
+  margin-top: 30px
 }
+
+.link-to-work a {
+  color: var(--clr-floss);
+  background-color: var(--clr-moss);
+}
+
+
 
 .home-cta a {
   color: var(--clr-floss);
@@ -299,12 +322,6 @@ background-color: var(--clr-floss);
   text-transform: lowercase;
 }
 
-.contact-link {
-display: block;
-text-align: center;
-padding-top: 50px;
-}
-
 
 @media (max-width: 992px) {
   .cta-add-on {
@@ -347,13 +364,13 @@ padding-top: 50px;
   .home-testimonial-section,
   .about-intro,
   .about-description {
-    padding: 0 15px 200px 15px;
+    margin: 0 15px 200px 15px;
   }
 
   .hero-section h1,
   .hero-section a,
   .about-intro {
-    font-size: var(--fs-800);
+    font-size: 40px;
   }
 
   .hero-section,
