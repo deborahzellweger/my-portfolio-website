@@ -65,7 +65,7 @@ a {
   font-size: var(--fs-400);
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--clr-moss);
 }
 
@@ -94,21 +94,24 @@ nav {
   width: auto;
 }
 
-.nav a {
-  font-weight: 400;
-}
 
 .home-nav-links li,
 .work-nav-links li,
 .about-nav-links li,
-.contact-nav-links li {
+.contact-nav-links li,
+footer li{
 display: inline;
 text-transform: uppercase;
 line-height: 60px;
 padding: 15px;
 }
 
-nav a:hover {
+footer ul{
+  text-align: center;
+}
+
+nav a:hover,
+footer a:hover {
   font-weight: 600;
   transition: 0.25s ease-in-out;
 }
@@ -209,7 +212,7 @@ h3 {
   font-size: var(--fs-800);
   font-weight: 500;
   padding: 30px 0 30px 0;
-  margin: 30px 0 150px 0;
+  margin: 30px 0 50px 0;
 }
 
 .home-cta a {
@@ -285,20 +288,12 @@ background-color: var(--clr-floss);
   text-transform: lowercase;
 }
 
-.back-home-link,
 .contact-link {
 display: block;
 text-align: center;
 padding-top: 50px;
 }
 
-.back-home-link {
-  color: var(--clr-floss);
-}
-
-.contact-link {
-  color: var(--clr-moss);
-}
 
 @media (max-width: 992px) {
   .cta-add-on {
