@@ -345,14 +345,21 @@ padding-top: 50px;
   .hero-section,
   .home-project-section,
   .home-testimonial-section,
+  .about-intro,
   .about-description {
-    padding: 0 15px 230px 15px;
+    padding: 0 15px 200px 15px;
   }
 
   .hero-section h1,
+  .hero-section a,
   .about-intro {
-    padding-top: 200px;
-    max-width: 345px;
+    font-size: var(--fs-800);
+  }
+
+  .hero-section,
+  .about-intro {
+    padding-top: 100px;
+    max-width: 280px;
   }
 
   .about-intro {
