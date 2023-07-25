@@ -44,6 +44,11 @@ body {
   background-color: var(--clr-moss);
 }
 
+.contact {
+  background-color: var(--clr-zing);
+  color: var(--clr-floss);
+}
+
 h1,
 h2,
 p {
@@ -82,7 +87,8 @@ li {
 .hero-section h1,
 .link-hero-debbie-to-about,
 .about-intro,
-.work-section {
+.work-section,
+.contact-section {
   font-size: var(--fs-xl);
   padding: 300px 0 320px 0px;
 }
@@ -121,7 +127,8 @@ li {
 
 .home-project-section,
 .home-cta,
-.about-cta {
+.about-cta,
+.contact-cta {
   display: block;
   text-align: center;
 }
@@ -154,7 +161,8 @@ h3 {
 }
 
 .home-cta a,
-.about-cta a {
+.about-cta a,
+.contact-cta a {
   font-size: var(--fs-800);
   font-weight: 500;
   padding: 30px 0 30px 0;
@@ -169,6 +177,11 @@ h3 {
 .about-cta a {
   color: var(--clr-bubble-yum);
   background-color: var(--clr-floss);
+}
+
+.contact-cta a {
+color: var(--clr-zing);
+background-color: var(--clr-floss);
 }
 
 .about-img {
