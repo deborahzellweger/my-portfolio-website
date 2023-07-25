@@ -324,6 +324,11 @@ padding-top: 50px;
  .nav {
   margin-right: 15px;
  }
+
+ .logo-small {
+  margin-left: 15px;
+  padding-left: 0;
+ }
   
 .home-nav-links li,
 .work-nav-links li,
@@ -333,16 +338,15 @@ padding-top: 50px;
     flex-direction: column;
     text-align: right;
     text-transform: uppercase;
-    line-height: 10px;
-    padding: 12px 10px 0 0;
+    line-height: 8px;
   }
 
   
-  .hero-section h1,
+  .hero-section,
   .home-project-section,
   .home-testimonial-section,
   .about-description {
-    padding-bottom: 230px;
+    padding: 0 15px 230px 15px;
   }
 
   .hero-section h1,
