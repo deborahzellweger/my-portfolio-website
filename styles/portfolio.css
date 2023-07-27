@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: var(--default-font);
+  font-family: var(--default-font);s
 }
 
 .container {
@@ -91,7 +91,7 @@ li {
 }
 
 nav {
-  margin: 30px 50px 0 0;
+  margin: 50px 50px 0 0;
 }
 
 .logo {
@@ -214,10 +214,11 @@ h3 {
 }
 
 .link-to-work {
-  max-width: 200px;
+  max-width: 180px;
   padding-top: 50px;
   margin: 0 auto;
 }
+
 
 .quote {
   color: var(--clr-zing);
@@ -259,6 +260,14 @@ footer {
   z-index: -1;
   max-width: 1000px;
   border-radius: 16px;
+}
+
+.link-to-work-aboutp {
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 900px;
+  max-width: 180px;
 }
 
 .about-intro,
@@ -316,6 +325,12 @@ footer {
     max-width: 790px;
     border-radius: 16px;
   }
+
+  .link-to-work-aboutp {
+  top: 548px;
+  left: 80px;
+}
+
 }
 
 @media (max-width: 992px) {
@@ -375,4 +390,8 @@ footer {
     max-width: 600px;
     border-radius: 16px;
   }
+
+    .link-to-work-aboutp {
+      display: none;
+    }
 }
