@@ -15,13 +15,13 @@
 
 @media (max-width: 576px) {
   :root {
-    --fs-900: 40px;
-    --fs-800: 30px;
+    --fs-900: 30px;
+    --fs-800: 20px;
   }
 }
 
 body {
-  font-family: var(--default-font);s
+  font-family: var(--default-font);
 }
 
 .container {
@@ -137,8 +137,7 @@ nav li.active a {
 }
 
 .hero-section,
-.work-section,
-.contact-section {
+.work-section {
   font-size: var(--fs-xl);
   margin: 180px 50px 320px 50px;
 }
@@ -219,7 +218,6 @@ h3 {
   margin: 0 auto;
 }
 
-
 .quote {
   color: var(--clr-zing);
 }
@@ -250,6 +248,10 @@ footer {
 .contact-cta a {
   color: var(--clr-zing);
   background-color: var(--clr-floss);
+}
+
+.contact-cta {
+  margin-top: 300px;
 }
 
 .about-img {
@@ -327,10 +329,9 @@ footer {
   }
 
   .link-to-work-aboutp {
-  top: 548px;
-  left: 80px;
-}
-
+    top: 545px;
+    left: 80px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -391,7 +392,7 @@ footer {
     border-radius: 16px;
   }
 
-    .link-to-work-aboutp {
-      display: none;
-    }
+  .link-to-work-aboutp {
+    display: none;
+  }
 }
