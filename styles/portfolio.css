@@ -16,7 +16,8 @@
 @media (max-width: 576px) {
   :root {
     --fs-900: 30px;
-    --fs-800: 20px;
+    --fs-800: 25px;
+    --fs-500: 20px;
   }
 }
 
@@ -210,7 +211,6 @@ footer {
 }
 
 
-
 .home-project-section h2 {
   margin-bottom: 100px;
 }
@@ -368,6 +368,15 @@ h3 {
   .link-to-work-aboutp {
     display: none;
   }
+
+    .project-title {
+      margin-top: 30px;
+    }
+  
+    .project-title,
+    .project-description {
+      margin-left: 30px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -411,6 +420,14 @@ h3 {
     max-width: 280px;
   }
 
+  .home-project-section h2 {
+    margin-bottom: 60px;
+  }
+
+  .home-project-title {
+    margin-bottom: 0;
+  }
+
   .about-intro {
     margin-bottom: 100px;
   }
@@ -421,6 +438,15 @@ h3 {
     max-width: 600px;
     border-radius: 16px;
   }
+
+  .work-section {
+    margin: 8px 15px 8px 15px;
+  }
+  
+    .project-title,
+    .project-description {
+      display: none;
+    }
 
   .home-cta a,
   .about-cta a,
