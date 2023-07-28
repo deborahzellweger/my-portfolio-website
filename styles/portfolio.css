@@ -129,11 +129,17 @@ nav li.active a {
   font-weight: 700;
 }
 
+
+
 .work-nav-links a,
 .about-nav-links a,
 .contact-nav-links a,
 .about-footer a {
   color: var(--clr-floss);
+}
+
+footer {
+  margin: 0 50px 80px 50px;
 }
 
 .hero-section {
@@ -194,6 +200,16 @@ nav li.active a {
   text-align: center;
 }
 
+.hp-project-wrapper {
+  position: relative;
+}
+
+.followMouse {
+  position: absolute;
+}
+
+
+
 .home-project-section h2 {
   margin-bottom: 100px;
 }
@@ -206,6 +222,8 @@ h3 {
   font-weight: 600;
   line-height: 40px;
 }
+
+
 
 h3 {
   color: var(--clr-floss);
@@ -225,9 +243,7 @@ h3 {
   color: var(--clr-zing);
 }
 
-footer {
-  margin: 0 50px 80px 50px;
-}
+
 
 .home-cta a,
 .about-cta a,
