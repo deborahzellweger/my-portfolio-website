@@ -30,7 +30,8 @@ body {
   max-width: 1440px !important;
 }
 
-.index {
+.index,
+.liquid-bodies {
   background-color: var(--clr-floss);
   color: var(--clr-moss);
 }
@@ -148,7 +149,7 @@ footer {
 }
 
 .work-section {
-  margin: 0px 50px 0 50px;
+  margin: 0px 50px 100px 50px;
 }
 
 .about-intro {
@@ -220,6 +221,10 @@ h3 {
   font-size: var(--fs-800);
   font-weight: 600;
   line-height: 40px;
+}
+
+.project-intro h3 {
+  color: var(--clr-moss);
 }
 
 h3 {
@@ -335,7 +340,7 @@ h3 {
 }
 
 .project-wrapper {
-  margin: 50px 50px 0 50px;
+  margin: 180px 50px 100px 50px;
 }
 
 .project-blurb-wrapper {
@@ -352,7 +357,7 @@ h3 {
 
 .deliverables {
   text-transform: uppercase;
-  margin: 30px 0 100px 0;
+  margin: 30px 0 250px 0;
   font-weight: 600;
 }
 
@@ -388,9 +393,24 @@ h3 {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  .deliverables {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 768px) {
+  .home-nav-links li,
+  .work-nav-links li,
+  .about-nav-links li,
+  .contact-nav-links li {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 8px;
+  }
+
   .link-to-work-aboutp {
     display: none;
   }
@@ -413,17 +433,6 @@ h3 {
   .logo-small {
     margin-left: 15px;
     padding-left: 0;
-  }
-
-  .home-nav-links li,
-  .work-nav-links li,
-  .about-nav-links li,
-  .contact-nav-links li {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    text-transform: uppercase;
-    line-height: 8px;
   }
 
   .hero-section,
@@ -470,7 +479,7 @@ h3 {
   }
 
   .work-section {
-    margin: 8px 15px 8px 15px;
+    margin: 8px 15px 15px 15px;
   }
 
   .project-title,
