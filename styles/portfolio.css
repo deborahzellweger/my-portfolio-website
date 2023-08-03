@@ -33,7 +33,9 @@ body {
 }
 
 .index,
-.liquid-bodies {
+.liquid-bodies,
+.aashika,
+.bloom {
   background-color: var(--clr-floss);
   color: var(--clr-moss);
 }
@@ -361,12 +363,14 @@ h3 {
 
 .project-blurb {
   font-size: var(--fs-300);
+  font-family: "Montserrat";
   font-weight: 400;
   line-height: 1.3;
   padding-bottom: 3px;
 }
 
 .deliverables {
+  font-family: "Montserrat";
   text-transform: uppercase;
   margin: 30px 0 250px 0;
   font-weight: 600;
@@ -457,10 +461,6 @@ h3 {
     margin: 0 15px 200px 15px;
   }
 
-  .project-wrapper {
-    margin: 0 15px 0 15px;
-  }
-
   .hero-section h1,
   .hero-section a,
   .about-intro {
@@ -520,6 +520,21 @@ h3 {
   .about-cta a,
   .contact-cta a {
     margin: 30px 0 80px 0;
+  }
+
+  .project-wrapper {
+    margin: 0 15px 50px 15px;
+  }
+
+  .project-blurb-wrapper {
+    margin-bottom: 50px;
+    max-width: 350px;
+  }
+
+  .bloom-wireframe {
+    display: none;
+    max-height: 0;
+    margin: 0;
   }
 
   footer li a {
