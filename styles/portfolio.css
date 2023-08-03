@@ -355,7 +355,7 @@ h3 {
 }
 
 .project-blurb-wrapper {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   max-width: 500px;
 }
 
@@ -373,7 +373,8 @@ h3 {
 }
 
 .deliverables li {
-  font-size: 18px;
+  font: var(--paragraph-font);
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -400,11 +401,6 @@ h3 {
     visibility: hidden;
     max-height: 0;
     margin: 0px;
-  }
-
-  .project-blurb-wrapper {
-    margin-top: 30px;
-    margin-bottom: 30px;
   }
 
   .deliverables {
