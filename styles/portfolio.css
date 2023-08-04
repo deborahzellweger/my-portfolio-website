@@ -4,6 +4,12 @@
   --clr-bubble-yum: #f090b3;
   --clr-moss: #235538;
 
+  --clr-liquid-bodies: #FEFFF9;
+  --clr-aashika: #FFFFE5;
+  --clr-bloom: #FEF9ED;
+  --clr-adibilis: #f9f9fa;
+  --clr-improjazzation: #FFFAF4;
+
   --default-font: "Montserrat Alternates", sans-serif;
   --paragraph-font: "Montserrat", sans-serif;
 
@@ -33,9 +39,7 @@ body {
 }
 
 .index,
-.liquid-bodies,
-.aashika,
-.bloom {
+.byob {
   background-color: var(--clr-floss);
   color: var(--clr-moss);
 }
@@ -56,6 +60,39 @@ body {
 .contact {
   background-color: var(--clr-zing);
   color: var(--clr-floss);
+}
+
+.liquid-bodies,
+.shrike {
+  background-color: var(--clr-liquid-bodies);
+}
+
+.aashika {
+  background-color: var(--clr-aashika);
+}
+
+.bloom,
+.zero-signal {
+  background-color: var(--clr-bloom);
+}
+
+.adibilis {
+  background-color: var(--clr-adibilis);
+}
+
+.improjazzation {
+  background-color: var(--clr-improjazzation);
+}
+
+.liquid-bodies,
+.aashika,
+.bloom,
+.adibilis,
+.shrike,
+.zero-signal,
+.byob,
+.improjazzation {
+  color: var(--clr-moss);
 }
 
 h1 {
@@ -425,6 +462,12 @@ h3 {
     padding: 15px;
   }
 
+     .bloom-wireframe {
+       display: none;
+       max-height: 0;
+       margin: 0;
+     }
+
   footer li {
     padding: 15px;
   }
@@ -529,12 +572,6 @@ h3 {
   .project-blurb-wrapper {
     margin-bottom: 50px;
     max-width: 350px;
-  }
-
-  .bloom-wireframe {
-    display: none;
-    max-height: 0;
-    margin: 0;
   }
 
   footer li a {
