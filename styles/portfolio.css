@@ -4,11 +4,11 @@
   --clr-bubble-yum: #f090b3;
   --clr-moss: #235538;
 
-  --clr-liquid-bodies: #FEFFF9;
-  --clr-aashika: #FFFFE5;
-  --clr-bloom: #FEF9ED;
+  --clr-liquid-bodies: #fefff9;
+  --clr-aashika: #ffffe5;
+  --clr-bloom: #fef9ed;
   --clr-adibilis: #f9f9fa;
-  --clr-improjazzation: #FFFAF4;
+  --clr-improjazzation: #fffaf4;
 
   --default-font: "Montserrat Alternates", sans-serif;
   --paragraph-font: "Montserrat", sans-serif;
@@ -39,22 +39,18 @@ body {
 }
 
 .index,
+.work,
 .byob {
   background-color: var(--clr-floss);
   color: var(--clr-moss);
 }
 
-.about,
-.work {
+.about {
   color: var(--clr-floss);
 }
 
 .about {
   background-color: var(--clr-bubble-yum);
-}
-
-.work {
-  background-color: var(--clr-moss);
 }
 
 .contact {
@@ -177,7 +173,6 @@ nav li.active a {
   font-weight: 700;
 }
 
-.work-nav-links a,
 .about-nav-links a,
 .contact-nav-links a,
 .about-footer a {
@@ -190,7 +185,7 @@ footer {
 
 .hero-section {
   font-size: var(--fs-xl);
-  margin: 180px 50px 320px 50px;
+  margin: 180px 50px 300px 50px;
 }
 
 .work-section {
@@ -199,7 +194,7 @@ footer {
 
 .about-intro {
   font-size: var(--fs-xl);
-  margin: 180px 50px 250px 50px;
+  margin: 180px 50px 340px 50px;
 }
 
 .hero-section {
@@ -235,7 +230,7 @@ footer {
 .home-project-section,
 .home-testimonial-section,
 .about-description {
-  margin: 0 50px 320px 50px;
+  margin: 0 50px 250px 50px;
 }
 
 .home-project-section,
@@ -256,11 +251,10 @@ footer {
 }
 
 .home-project-section h2 {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
-.home-project-title a,
-h3 {
+.home-project-title a {
   color: var(--clr-zing);
   text-transform: uppercase;
   font-size: var(--fs-800);
@@ -270,6 +264,19 @@ h3 {
 
 .project-intro h3 {
   color: var(--clr-moss);
+}
+
+.project-title-sm h3 {
+  text-transform: uppercase;
+  color: var(--clr-moss);
+  font-size: 23px;
+  margin-top: 15px;
+}
+
+.project-description-sm {
+  font-size: 15px;
+  opacity: 60%;
+  font-weight: 300;
 }
 
 h3 {
@@ -296,7 +303,7 @@ h3 {
   font-size: var(--fs-800);
   font-weight: 500;
   padding: 30px 0 30px 0;
-  margin: 30px 0 150px 0;
+  margin: 30px 0 90px 0;
 }
 
 .home-cta a {
@@ -462,11 +469,11 @@ h3 {
     padding: 15px;
   }
 
-     .bloom-wireframe {
-       display: none;
-       max-height: 0;
-       margin: 0;
-     }
+  .bloom-wireframe {
+    display: none;
+    max-height: 0;
+    margin: 0;
+  }
 
   footer li {
     padding: 15px;
@@ -562,7 +569,7 @@ h3 {
   .home-cta a,
   .about-cta a,
   .contact-cta a {
-    margin: 30px 0 80px 0;
+    margin: 20px 0 50px 0;
   }
 
   .project-wrapper {
