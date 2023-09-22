@@ -13,7 +13,7 @@
   --default-font: "Montserrat Alternates", sans-serif;
   --paragraph-font: "Montserrat", sans-serif;
 
-  --fs-xl: clamp(50px, 5vw, 70px);
+  --fs-xl: clamp(45px, 5vw, 70px);
   --fs-900: 60px;
   --fs-800: 40px;
   --fs-500: 25px;
@@ -197,7 +197,7 @@ footer {
 
 .about-intro {
   font-size: var(--fs-xl);
-  margin: 180px 50px 340px 50px;
+  margin: 180px 50px 250px 50px;
 }
 
 .hero-section {
@@ -232,7 +232,8 @@ footer {
 
 .home-project-section,
 .home-testimonial-section,
-.about-description {
+.about-description,
+.about-blurb {
   margin: 0 50px 250px 50px;
 }
 
@@ -408,7 +409,8 @@ h3 {
   max-width: 500px;
 }
 
-.project-blurb {
+.project-blurb,
+.about-paragraph {
   font-size: var(--fs-300);
   font-family: "Montserrat";
   font-weight: 400;
@@ -437,14 +439,17 @@ h3 {
     border-radius: 16px;
   }
 
-  .link-to-work-aboutp {
-    top: 545px;
-    left: 0px;
-  }
+     .link-to-work-aboutp {
+       display: none;
+     }
 }
 
 @media (max-width: 992px) {
   .cta-add-on {
+    display: none;
+  }
+
+  .about-description {
     display: none;
   }
 
@@ -482,10 +487,6 @@ h3 {
     padding: 15px;
   }
 
-  .link-to-work-aboutp {
-    display: none;
-  }
-
   .project-title {
     margin-top: 30px;
   }
@@ -510,7 +511,7 @@ h3 {
   .home-project-section,
   .home-testimonial-section,
   .about-intro,
-  .about-description {
+  .about-blurb {
     margin: 0 15px 200px 15px;
   }
 
