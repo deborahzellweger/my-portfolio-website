@@ -220,10 +220,6 @@ footer {
   font-weight: 700;
 }
 
-.hero-section a:hover {
-  color: var(--clr-bubble-yum);
-}
-
 .about-description-title {
   font-size: 25px;
   font-style: normal;
